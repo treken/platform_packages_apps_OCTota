@@ -45,7 +45,7 @@ public abstract class Updater implements URLStringReaderListener, HttpStringRead
         public boolean isGapps();
     }
 
-    public static final String PROPERTY_DEVICE = "ro.cm.device";
+    public static final String PROPERTY_DEVICE = "ro.oct.device";
 
     public static final int UPDATER_GOO = 0;
     public static final int UPDATER_OUC = 1;
