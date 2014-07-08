@@ -32,7 +32,7 @@ public class GooUpdater extends Updater {
 
     public static final String PROPERTY_GOO_DEVELOPER = "ro.goo.developerid";
     public static final String PROPERTY_GOO_ROM = "ro.goo.rom";
-    public static final String PROPERTY_GOO_VERSION = "ro.goo.version";
+    public static final String PROPERTY_GOO_VERSION = "ro.oct.version";
 
     private UpdaterListener mListener;
     private boolean mScanning = false;
