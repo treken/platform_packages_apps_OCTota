@@ -8,6 +8,6 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_STATIC_JAVA_LIBRARIES := \
     android-support-v4
 
-LOCAL_PACKAGE_NAME := AOSBota
+LOCAL_PACKAGE_NAME := OCTota
 
 include $(BUILD_PACKAGE)
