@@ -16,7 +16,7 @@
 
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.probam.updater"
+    package="com.oct.updater"
     android:versionCode="224"
     android:versionName="2.2.4" >
 
@@ -37,7 +37,7 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.probam.updater.MainActivity"
+        <activity android:name="com.oct.updater.MainActivity"
             android:label="@string/app_name"
             android:configChanges="orientation|screenSize"
             android:launchMode="singleInstance" >
@@ -47,17 +47,17 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name="com.probam.updater.activity.GooActivity" />
-        <activity android:name="com.probam.updater.activity.SettingsActivity" />
-        <activity android:name="com.probam.updater.activity.RecoveryActivity" />
-        <activity android:name="com.probam.updater.util.RequestFileActivity"
+        <activity android:name="com.oct.updater.activity.GooActivity" />
+        <activity android:name="com.oct.updater.activity.SettingsActivity" />
+        <activity android:name="com.oct.updater.activity.RecoveryActivity" />
+        <activity android:name="com.oct.updater.util.RequestFileActivity"
             android:theme="@android:style/Theme.Translucent.NoTitleBar" />
 
-        <service android:name="com.probam.updater.DownloadService" />
+        <service android:name="com.oct.updater.DownloadService" />
 
-        <receiver android:name="com.probam.updater.NotificationAlarm" />
+        <receiver android:name="com.oct.updater.NotificationAlarm" />
         <receiver
-            android:name="com.probam.updater.Receiver"
+            android:name="com.oct.updater.Receiver"
             android:enabled="true"
             android:exported="false"
             android:label="Receiver" >
